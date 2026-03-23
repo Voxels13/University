@@ -75,20 +75,3 @@ list1=[1,2,3,4,5,6,7,8,9,'a','b','c']
 if 1 in list1:
     print("YES")
 print(list1[::-1])
-
-#We can remove duplicates from a list by,
-#1. Turning the list into a set
-#2. iterating through the list and adding only unique values onto a different list
-
-#We can find the max and min in two ways (there are more ways but these 2 are easy)
-#1. Using max() and min() functions
-#2. Sorting the list and then returning values at index = 0 and -1
-
-#Iterating over a list and modifying its elements
-
-list1=[1,2,3,4,5]
-
-for i in range(0,len(list1)):
-    list1[i]+=2
-
-print(list1)
